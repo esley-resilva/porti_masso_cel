@@ -1,6 +1,98 @@
 // Conteúdo editável - Pode modificar livremente
 const content = {
-    // ... (o mesmo conteúdo anterior) ...
+    hero: {
+        title: "Jornada Corporal",
+        subtitle: "Esley Reginaldo - Massoterapeuta",
+        description: "Uma experiência única de bem-estar que integra técnicas milenares com abordagens modernas, proporcionando equilíbrio entre corpo, mente e energia vital."
+    },
+    
+    portfolioPages: [
+        {
+            title: "Bem-vindo",
+            subtitle: "Apresentação Profissional",
+            icon: "fas fa-user-md",
+            bgGradient: "linear-gradient(135deg, #1e1b4b 0%, #3730a3 100%)",
+            content: `
+                <h3>Sobre Mim</h3>
+                <p>Sou Esley Reginaldo, massoterapeuta especializado em técnicas integrativas que combinam conhecimentos ancestrais com práticas modernas de bem-estar.</p>
+                <p>Minha missão é proporcionar uma experiência única de cura e equilíbrio, trabalhando desde o nível celular até os sistemas energéticos mais complexos do corpo humano.</p>
+            `
+        },
+        {
+            title: "Nível Celular",
+            subtitle: "A base de toda vida",
+            icon: "fas fa-dna",
+            bgGradient: "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
+            content: `
+                <h3>Fundamentos Microscópicos</h3>
+                <p>Toda técnica de massoterapia inicia seu trabalho no nível mais fundamental: a célula.</p>
+                <ul>
+                    <li>Melhora da oxigenação celular</li>
+                    <li>Aceleração do metabolismo</li>
+                    <li>Eliminação de toxinas</li>
+                    <li>Regeneração tecidual</li>
+                    <li>Equilíbrio do pH celular</li>
+                </ul>
+            `
+        },
+        // Adicione mais páginas conforme necessário
+    ],
+    
+    services: [
+        {
+            title: "Drenagem Linfática",
+            icon: "fas fa-leaf",
+            description: "Técnica especializada para eliminação de toxinas, redução de inchaço e fortalecimento do sistema imunológico. Ideal para pós-operatório e bem-estar geral."
+        },
+        {
+            title: "Massagem Relaxante",
+            icon: "fas fa-zen",
+            description: "Movimentos suaves e rítmicos que promovem relaxamento profundo, alívio do estresse e melhora da qualidade do sono. Perfeita para o ritmo acelerado da vida moderna."
+        },
+        // Adicione mais serviços conforme necessário
+    ],
+    
+    testimonials: [
+        {
+            name: "Mariana Silva",
+            date: "15 de Maio, 2023",
+            rating: 5,
+            content: "As sessões de massagem com o Esley transformaram minha vida. Após um acidente, a drenagem linfática ajudou na minha recuperação de forma impressionante. Recomendo muito!"
+        },
+        {
+            name: "Carlos Oliveira",
+            date: "22 de Junho, 2023",
+            rating: 4.5,
+            content: "Sofria de dores crônicas nas costas há anos. Após algumas sessões de shiatsu, minha qualidade de vida melhorou significativamente. O Esley é um profissional excepcional."
+        },
+        // Adicione mais avaliações conforme necessário
+    ],
+    
+    gallery: [
+        { 
+            image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+            caption: "Massagem Relaxante"
+        },
+        { 
+            image: "https://images.unsplash.com/photo-1591348131719-8c1a7b8f2d9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+            caption: "Drenagem Linfática"
+        },
+        // Adicione mais imagens conforme necessário
+    ],
+    
+    stats: [
+        { number: 500, label: "Clientes Atendidos" },
+        { number: 8, label: "Anos de Experiência" },
+        { number: 15, label: "Técnicas Especializadas" },
+        { number: 98, label: "% Satisfação" }
+    ],
+    
+    contact: {
+        phone: "(11) 99999-9999",
+        email: "esley@massoterapia.com",
+        location: "São Paulo - SP",
+        whatsapp: "https://wa.me/5511999999999"
+    }
 };
 
 // Variáveis globais
@@ -632,3 +724,4 @@ function loadContent() {
         });
     }
 }
+
