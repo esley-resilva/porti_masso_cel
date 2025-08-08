@@ -1,0 +1,30 @@
+{
+    "hero": {
+        "title": "Jornada Corporal",
+        "subtitle": "Esley Reginaldo - Massoterapeuta",
+        "description": "Uma experiência única de bem-estar que integra técnicas milenares com abordagens modernas, proporcionando equilíbrio entre corpo, mente e energia vital."
+    },
+    "portfolioPages": [
+        {
+            "title": "Bem-vindo",
+            "subtitle": "Apresentação Profissional",
+            "icon": "fas fa-user-md",
+            "bgGradient": "linear-gradient(135deg, #1e1b4b 0%, #3730a3 100%)",
+            "content": "<h3>Sobre Mim</h3><p>Sou Esley Reginaldo, massoterapeuta especializado em técnicas integrativas que combinam conhecimentos ancestrais com práticas modernas de bem-estar.</p><p>Minha missão é proporcionar uma experiência única de cura e equilíbrio, trabalhando desde o nível celular até os sistemas energéticos mais complexos do corpo humano.</p>"
+        },
+        {
+            "title": "Nível Celular",
+            "subtitle": "A base de toda vida",
+            "icon": "fas fa-dna",
+            "bgGradient": "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
+            "content": "<h3>Fundamentos Microscópicos</h3><p>Toda técnica de massoterapia inicia seu trabalho no nível mais fundamental: a célula.</p><ul><li>Melhora da oxigenação celular</li><li>Aceleração do metabolismo</li><li>Eliminação de toxinas</li><li>Regeneração tecidual</li><li>Equilíbrio do pH celular</li></ul>"
+        }
+    ],
+    "services": [
+        {
+            "title": "Drenagem Linfática",
+            "icon": "fas fa-leaf",
+            "description": "Técnica especializada para eliminação de toxinas, redução de inchaço e fortalecimento do sistema imunológico. Ideal para pós-operatório e bem-estar geral."
+        }
+    ]
+}
